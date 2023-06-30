@@ -1,0 +1,81 @@
+.label {
+    -fx-font-size: 12px;
+}
+
+.button {
+    -fx-font-size: 12px;
+}
+
+.tab {
+    -fx-background-color: #d0cee2;
+    -fx-border-color: #9775a7;
+    -fx-color: #ffffff;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab-pane > .tab-header-area > .headers-region > .tab:selected {
+    -fx-background-color: #6a00ff;
+    -fx-border-color: #9775a7;
+    -fx-color: #000000;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.tab-pane *.tab-header-background {
+    -fx-background-color: #d0cee2;
+}
+
+.whiteButton {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 3;
+    -fx-border-width: 2;
+    -fx-border-color: null;
+}
+
+.whiteButton:pressed {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 3;
+    -fx-border-width: 2;
+    -fx-border-color: #6a00ff;
+}
+
+.whiteButtonWithBlackBorder{
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 3;
+    -fx-border-width: 1;
+    -fx-border-color: #000000;
+}
+
+.whiteButtonWithBlackBorder:pressed {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 3;
+    -fx-border-width: 2;
+    -fx-border-color: #6a00ff;
+}
+
+.clickedButtonStyle {
+    -fx-background-color: #e1d5e7;
+    -fx-border-color: #9775a7;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+}
+
+.nonclickedButtonStyle {
+    -fx-background-color: #e1d5e7;
+    -fx-border-color: #9775a7;
+    -fx-border-radius: 5;
+    -fx-border-width: 1;
+}
+
+.tabStyle {
+    -fx-background-color: #d0cee2;
+    -fx-border-width: 5 1 1 1;
+    -fx-border-color: #6a00ff;
+}
+
+.newWindowStyle {
+    -fx-background-color: #d0cee2;
+    -fx-border-width: 0 2 2 2;
+    -fx-border-color: #6a00ff;
+}
